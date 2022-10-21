@@ -11,5 +11,6 @@ def cal_beta(delta_v, M2, mD, vD):
 
 dv = delta_v(M1, T0, T1)
 beta = cal_beta(dv, M2, mD, vD)
-print(dv+1)
+print('{:.2e}'.format(M2*dv))
+print(dv)
 print(beta)
